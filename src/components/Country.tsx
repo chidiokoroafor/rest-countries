@@ -5,7 +5,7 @@ const Countrie = ({cou}:CountryProps) => {
   return (
    <Link to={`countries/${cou.name.common}`} className="dark:bg-DarkBlue rounded-lg overflow-hidden bg-White  dark:text-White shadow-sm" >
         <div className=" w-full h-[150px] border-1 border-red-500">
-        <img className="max-w-full h-full object-cover " src={cou.flags.png} alt={cou.flags.alt} />
+        <img className="w-full h-full object-cover " src={cou.flags.png} alt={cou.flags.alt} />
         </div>
         <div className="p-4 space-y-1 dark:bg-DarkBlue">
             <h3 className="font-[800] my-3">{cou.name.common}</h3>
