@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Solution here](https://your-solution-url.com)
+- Solution: [Solution here](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-a3jyT6Ysdw)
 - Live Site: [Live site here](https://rest-countries-tau-three.vercel.app/)
 
 ### Built with
