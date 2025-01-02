@@ -54,7 +54,7 @@ const Home = () => {
           
           <SearchFilter filterText={filterText} setFilterText={setFilterText} allCountries={allCountries} searchText={searchText} setSearchText={setSearchText} />
 
-          {allLoading || searchedLoading || filteredLoading ? <p className="text-center text-2xl mt-12">Loading...</p> :
+          {allLoading || searchedLoading || filteredLoading ? <p className="text-center text-2xl mt-12 dark:text-White">Loading...</p> :
             <div>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
                     {currentPageData?.map((cou) => {
