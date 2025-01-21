@@ -28,7 +28,6 @@ export const countryApi = createApi({
         }),
     })
 })
-console.log(typeof countryApi);
 
 
 export const { useGetCountriesQuery, useLazySearchCountriesByNameQuery, useLazyFilterCountriesByRegionQuery, useGetCountryDetailByNameQuery } = countryApi
